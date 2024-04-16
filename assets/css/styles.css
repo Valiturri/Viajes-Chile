@@ -29,3 +29,9 @@ body * {
     background-color: #17A2B8;
 
 }
+
+@media only screen and (max-width: 768px) {
+    .bg-nos {
+        display: none;
+    }
+}
