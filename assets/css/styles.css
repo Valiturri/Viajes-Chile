@@ -1,1 +1,21 @@
+/*FORMATEANDO ESTILOS*/
+body {
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
 
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.logo-nav {
+    width: 100px;
+    height: 40px;
+    margin: 0px;
+    padding: 0px
+}
