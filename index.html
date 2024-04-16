@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Chile</title>
+
+    <!----------------------------------------------------->
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet"">
+
+    <!--MI CSS-->
+    <link rel=" stylesheet" href="assets/css/styles.css">
+
+    <!--IMPORTANDO GOOGLE FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <!-------------------------------------------------------------------------------->
+    <!------------------------ICONOS DE FONTAWESOME----------------------------------->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!----------------------------------------------------->
+    <!----------------------------------------------------->
+
+    <!---INTEGRANDO CDN JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <!----------------------------------------------------->
+    <!----------BARRA DE NAVEGACION------------------------>
+    <!----------------------------------------------------->
+    <header>
+        <div class="container fixed-top">
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-expand-sm navbar-light custom-px-5">
+                        <div class="container">
+                            <a class="navbar-brand" href="#">
+                                <div class="container-fluid d-flex">
+                                    <img class="logo-nav" src="assets/img/viajes.svg">
+                                    <h1 class="fst-italic text-white h4">Viajes Chile</h1>
+                                </div>
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-center justify-content-sm-end"
+                                id="navbarNav">
+                                <ul class="navbar-nav text-center text-sm-right">
+                                    <li class="nav-item">
+                                        <a class="nav-link active text-white" aria-current="page"
+                                            href="#inicio">Inicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#nosotros">Quienes somos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#destacados">Destacados</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#contactos">Contacto</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="inicio">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--------------SECCION QUIENES SOMOS-->
+
+    <section id="nosotros" class="bg-nos">
+        <div class="container ">
+            <h2 class="text-center py-3 mt-3">¿Quiénes Somos?</h2>
+            <hr class="mx-md-1 px-md-1 border border-3">
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <p class="text-center bg-info my-4"><i class="fas fa-plane icon" aria-hidden="true"></i></p>
+                    <p class="text-center mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+                        impedit quibusdam autem
+                        inventore neque doloribus, deleniti et laborum rerum ab voluptatem distinctio iste debitis in
+                        consequuntur. Non quas eligendi nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Odit cum est, labore expedita ipsam iure, delectus soluta consequuntur a, aperiam et. Quisquam
+                        cum, ullam impedit earum odit harum error iste.</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="text-center mx-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, alias
+                        est! Veritatis iste
+                        dolore laboriosam illum omnis nobis animi voluptate velit quasi assumenda! Accusantium
+                        laboriosam sed iure, dignissimos modi esse? Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Placeat quos commodi corporis porro enim sequi possimus. Temporibus consequatur corporis,
+                        nihil tempora illo doloribus, rerum eaque, molestias necessitatibus recusandae exercitationem
+                        inventore?</p>
+                    <p class="text-center bg-info my-4"><i class="fas fa-mountain icon" aria-hidden="true"></i></p>
+                </div>
+                <div class="col-md-4">
+                    <p class="text-center bg-info my-4"><i class="fas fa-route icon" aria-hidden="true"></i></p>
+                    <p class="text-center mx-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione quo
+                        harum cumque debitis
+                        nostrum vitae id ipsam numquam, aliquam atque sed repellendus nemo nihil blanditiis ea
+                        distinctio eius dolores pariatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Earum ab dolor qui, mollitia libero dolore repellat iste dignissimos possimus fugiat? Minus
+                        tempora reiciendis ipsa praesentium voluptas nemo ad! Quae, enim.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-----------SECCION DESTACADOS---------------->
+
+    <section class="container" id="destacados">
+        <h2 class="text-center py-3 mt-3">Destacados</h2>
+            <hr class="mx-md-1 px-md-1 border border-3">
+            <br>
+        <div class="card-group">
+            <div class="card m-md-1">
+                <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                <div class="card-body bg-section">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+            <div class="card m-md-1">
+                <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+                <div class="card-body bg-section">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                </div>
+            </div>
+            <div class="card m-md-1">
+                <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                <div class="card-body bg-section">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
+                </div>
+            </div>
+            <div class="card m-md-1">
+                <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                <div class="card-body bg-section">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-------------SECCION DE CONTACTO--------------------------->
+    <section id="contacto" class="container text-center py-5">
+        
+        <div class="mb-5">
+            <h1 class="fw-bold text-uppercase">Contacto</h1>
+            <hr class="opacity-100 w-25 mx-auto">            
+        </div>
+        <div class="bg-white text-dark py-5">
+            <p>
+                Hola Gracias por contactarnos
+            </p>
+            <a target="_blank" href="https://sfukh1jzi92.typeform.com/to/Vpk4lhAK">
+                <button class="btn bg-primary text-white">Comenzar</button>
+            </a>
+        </div>
+    </section>
+
+
+    
+
+
+
+
+    <!---------------------SCRIPTS JS-------------------------->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
