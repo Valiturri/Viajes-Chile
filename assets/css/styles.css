@@ -19,3 +19,13 @@ body * {
     margin: 0px;
     padding: 0px
 }
+
+
+.fab {
+    color: #ffff;
+}
+
+.bg-section {
+    background-color: #17A2B8;
+
+}
